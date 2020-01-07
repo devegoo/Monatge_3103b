@@ -1,5 +1,5 @@
---- a/linux/drivers/media/usb/dvb-usb/dw2102.c	2019-11-21 06:40:40.000000000 +0100
-+++ b/linux/drivers/media/usb/dvb-usb/dw2102.c	2020-01-06 14:47:21.276245000 +0100
+--- a/drivers/media/usb/dvb-usb/dw2102.c	2019-11-21 06:40:40.000000000 +0100
++++ b/drivers/media/usb/dvb-usb/dw2102.c	2020-01-06 14:47:21.276245000 +0100
 @@ -770,6 +770,9 @@
  					state->data, msg[1].len + 1, 0) < 0)
  			err("i2c transfer failed.");
