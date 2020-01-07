@@ -1,7 +1,7 @@
-diff --git a/linux/drivers/media/dvb-frontends/m88ds3103_priv.h b/linux/drivers/media/dvb-frontends/m88ds3103_priv.h
+diff --git a/drivers/media/dvb-frontends/m88ds3103_priv.h b/drivers/media/dvb-frontends/m88ds3103_priv.h
 index c825032f0..d656ec241 100644
---- a/linux/drivers/media/dvb-frontends/m88ds3103_priv.h
-+++ b/linux/drivers/media/dvb-frontends/m88ds3103_priv.h
+--- a/drivers/media/dvb-frontends/m88ds3103_priv.h
++++ b/drivers/media/dvb-frontends/m88ds3103_priv.h
 @@ -16,11 +16,17 @@
  #include <linux/regmap.h>
  #include <linux/math64.h>
